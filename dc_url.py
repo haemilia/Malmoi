@@ -1,7 +1,7 @@
 # 내가 필요한 함수와 라이브러리를 import한다.
 from bs4 import BeautifulSoup
 from requests import get
-from re import compile, findall
+from re import compile, findall, sub
 
 # Just a function that turns lists into strings because the re.findall() really annoys me
 def lststr(lst):
